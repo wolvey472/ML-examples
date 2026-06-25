@@ -70,7 +70,7 @@ model.fit(X_train, y_train, epochs=10)
 test_loss, test_acc = model.evaluate(X_test,  y_test, verbose=2)
 
 print('\nTest accuracy:', test_acc)
-print(f"{test_acc * 100}:,.2f")
+print(f"{test_acc * 100}")
 
 def predictions():
     for i in range(2):
