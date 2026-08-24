@@ -1,10 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-
 import tensorflow as tf
-
 import time as t
-
 import random as rd
 
 
@@ -49,9 +46,6 @@ def plot():
     return None
 
 
-
-
-
 X_train = X_train / 255.0 #scale values to range from 0-1
 X_test = X_test / 255.0
 
@@ -87,7 +81,6 @@ def predictions():
         t.sleep(1)
         plt.close(fig="all")
     
-
 predictions()
 
 def plot_incorrect(choice, predicted):
